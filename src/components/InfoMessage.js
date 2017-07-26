@@ -8,7 +8,7 @@ import {observer, inject} from 'mobx-react';
 export default class InfoMessage extends Component{
 	render() {
 		const {t, timerStore, i18n, i18nLoadedAt, ...props} = this.props;
-		const {isRunning, isWork, isPaused, isBreak} = timerStore;
+		const {isRunning, isWork, isPaused, isBreak, skipBreak} = timerStore;
 
 		let message;
 		if(isWork) {
@@ -21,6 +21,11 @@ export default class InfoMessage extends Component{
 			else message = t('Start break session');
 		}
 
-		return <div {...props}>{message}</div>
+		return <div {...props}>
+			<p>{message}</p>
+			{isBreak? <p 
+				style={{cursor: 'pointer', 'textDecoration':'underline'}} 
+				onClick={skipBreak}>{t('Skip break')}</p>: ''}
+		</div>;
 	}
 }

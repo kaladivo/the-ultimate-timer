@@ -86,6 +86,13 @@ export default class TimerStore {
 		this._setStreak(0);
 	}
 
+	@action skipBreak = () => {
+		if(!this.isBreak) 
+			throw new Error('You can not skip break when the mode is not break.');
+
+		this.mode = MODE_WORK;
+	}
+
 	@computed get timeLeft() {
 		if(! this.isRunning && !this.isPaused) return this.targetDuration;
 		return this.startedAt 
