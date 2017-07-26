@@ -1,0 +1,11 @@
+html, body, #root {
+  font-family: 'Work Sans', sans-serif;
+  background: #1C1D27; 
+  color: white;
+  min-height: 100vh;
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}

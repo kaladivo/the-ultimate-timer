@@ -1,0 +1,3 @@
+- [ ] Přidat preferences
+- [ ] Přidat možnost přeskočení pauzy
+- [ ] Přidat popis činnosti

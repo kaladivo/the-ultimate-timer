@@ -1,0 +1,6 @@
+export const STYLES = {
+	GRAY_TEXT: '#5F5F63',
+	DARKER_BACK: '#101017',
+	DARK_BACK: '#1C1D27',
+	WHITE_TEXT: '#FFF'
+}

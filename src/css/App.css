@@ -1,0 +1,23 @@
+.center-children {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade-appear, .fade-enter {
+  opacity: 0;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-enter.fade-enter-active, .fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-out 1000ms;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
+}
