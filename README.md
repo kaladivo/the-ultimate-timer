@@ -1,5 +1,5 @@
 # The ultimate timer
-This repository contains code for the timer tool I build. I decided to create it because I was unable to find any other timer app that does not look like app from year 2000. 
+This repository contains code for the timer tool I built. I decided to create it because I was unable to find any other timer app that does not look like app from year 2000. 
 
 I plan to extend this app and make it better with more features. See todo.md file.
 
