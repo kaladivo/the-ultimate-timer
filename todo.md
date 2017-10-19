@@ -1,3 +1,4 @@
-- [ ] Přidat preferences
-- [ ] Přidat možnost přeskočení pauzy
-- [ ] Přidat popis činnosti
+- [ ] Make app responzive
+- [ ] Use styled-components instead of css file
+- [ ] Add preferences
+- [ ] Add option to note what the user have done during work session
